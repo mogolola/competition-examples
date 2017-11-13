@@ -1,8 +1,11 @@
-This is a sample starting kit for the Iris challenge. 
-It uses the well known Iris dataset from Fisher's classic paper (Fisher, 1936). The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other.
+This is a sample starting kit for the house price predict challenge. 
+
+It uses a datasets from Kaggle which contains house sold prices for King County, USA between May 2014 and May 2015. The dataset includes 19 house features plus the price and the house id, along with 21613 observations.
+
+The objective of this project is achieving a regression model to predict the house price by analysing the correlation between the house price and the 19 given features.
 
 References and credits: 
-R. A. Fisher. The use of multiple measurements in taxonomic problems. Annual Eugenics, 7, Part II, 179-188 (1936). 
+House Sales in King County, USA, https://www.kaggle.com/harlfoxem/housesalesprediction/
 
 Prerequisites:
 Install Anaconda Python 2.7, including jupyter-notebook
@@ -10,7 +13,7 @@ Install Anaconda Python 2.7, including jupyter-notebook
 Usage:
 
 (1) If you are a challenge participant:
-- The file README.ipynb contains step-by-step instructions on how to create a sample submission for the Iris challenge. At the prompt type:
+- The file README.ipynb contains step-by-step instructions on how to create a sample submission for the house price predict challenge. At the prompt type:
 jupyter-notebook README.ipynb
 - modify sample_code_submission to provide a better model
 - zip the contents of sample_code_submission (without the directory, but with metadata), or

@@ -1,13 +1,15 @@
 This is a sample starting kit for the house price predict challenge. 
 
-It uses a datasets from Kaggle which contains house sold prices for King County, USA between May 2014 and May 2015. The dataset includes 19 house features plus the price and the house id, along with 21613 observations.
+It uses a datasets from [Kaggle](https://www.kaggle.com/) which contains house sold prices for King County, USA between May 2014 and May 2015. The dataset includes 19 house features plus the price and the house id, along with 21613 observations.
 
 The objective of this project is achieving a regression model to predict the house price by analysing the correlation between the house price and the 19 given features.
 
 References and credits: 
+
 House Sales in King County, USA, https://www.kaggle.com/harlfoxem/housesalesprediction/
 
 Prerequisites:
+
 Install Anaconda Python 2.7, including jupyter-notebook
 
 Usage:
